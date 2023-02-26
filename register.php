@@ -1,5 +1,7 @@
 <?php
-require "dbconnection.php";
+    if($_POST['submit']){
+        // To connect database
+        require "dbconnection.php";
 
     $name = $_POST['name'];
     $email = $_POST['email'];
@@ -9,9 +11,9 @@ require "dbconnection.php";
         header('Location: login.html');
       }
       else{
-        echo "Something Error, Please try again.";
+        echo "Something Error, Please try again."
       }
 
-
-$conn->close();
+        $conn->close();
+    }
 ?>
