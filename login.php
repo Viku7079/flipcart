@@ -1,5 +1,5 @@
 <?php
-if($_POST['submit']){
+if($_POST['login']){
     require "dbconnection.php";
     $email=$_POST['email'];
     $password=$_POST['password'];
