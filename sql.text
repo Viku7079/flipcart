@@ -2,3 +2,8 @@
 CREATE TABLE `flipcart`.`user` (`id` INT(4) NOT NULL AUTO_INCREMENT , 
 `name` VARCHAR(30) NOT NULL , `email` VARCHAR(30) NOT NULL , 
 `password` VARCHAR(30) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+// to create contact table
+CREATE TABLE `flipcart`.`contact` (`id` INT NOT NULL AUTO_INCREMENT , 
+`name` VARCHAR(30) NOT NULL , `email` VARCHAR(30) NOT NULL ,
+ `mobile` INT(10) NOT NULL , `message` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
