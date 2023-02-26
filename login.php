@@ -1,5 +1,5 @@
 <?php
-if($_POST['submit']){
+if($_POST['login']){
     require "dbconnection.php";
     $email=$_POST['email'];
     $password=$_POST['password'];
@@ -9,22 +9,17 @@ if($_POST['submit']){
         // output data of each row
         while($row = $result->fetch_assoc()) {
           if( $row["email"]==$email &&  $row["password"]==$password){
-            header('Location:');
+            header('Location: index.html ');
+            
           }
            
         }
-        echo "Incorect Credential Please check Email or Password";
+        echo "🤞Incorect Credential Please check Email or Password";
     } else {
         echo "0 results";
     }
       
-    if ($conn->query($sql) === TRUE) {
-        header('Location:');
-    }
-    else{
-        echo "Something Error, Please try again.";
-    }
-
+    
     $conn->close();
 
 }
