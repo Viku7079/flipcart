@@ -7,8 +7,6 @@ require "dbconnection.php";
     $sql="insert into user(name,email,password) values('$name','$email','$password')";
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
-      } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
       }
 
 
