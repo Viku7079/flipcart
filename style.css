@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000000;
+    width: 40%;
+    margin: auto;
+    background: burlywood;
+}
+.container_index{
+    text-align: center;
+    padding: 50px;
+}
+h1{
+    font-size: 56px;
+}
+h3{
+    font-size: 36px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
