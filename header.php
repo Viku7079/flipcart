@@ -18,47 +18,44 @@
     <title>ecommerce Website</title>
   </head>
   <body>
+    <!-- Header -->
     <header class="header" id="header">
       <div class="navigation">
         <div class="nav-center container d-flex">
-          <a href="/" class="logo">
-            <h1>flipcart</h1>
-          </a>
-    
+        <a href="/" class="logo"><h1>flipcart</h1></a>
+
           <ul class="nav-list d-flex">
             <li class="nav-item">
-              <a href="index.html" class="nav-link">Home</a>
+              <a href="index.php" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
               <a href="contact.html" class="nav-link">Contact</a>
             </li>
             <li class="icons d-flex">
-              <a href="cart.html" class="icon">
-                <i class="bx bx-cart"></i>
-                <span class="d-flex">0</span>
-              </a>
-            </li>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
           </ul>
-    
+
           <div class="icons d-flex">
             <a href="login.html" class="icon">
               <i class="bx">Login</i>
-            </a>
+            </a>            
           </div>
-    
+
           <div class="hamburger">
             <i class="bx bx-menu-alt-left"></i>
           </div>
         </div>
       </div>
+
+    
     </header>
 
-    <h1>This is a Home Page</h1>
 
-    <footer class="footer">
-      <h1>This is Footer</h1>
-    </footer>
- </body>
+  </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
   <script src="./js/slider.js"></script>
   <script src="./js/index.js"></script>
