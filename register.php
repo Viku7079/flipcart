@@ -1,5 +1,5 @@
 <?php
-    if($_POST['submit']){
+    if($_POST['signup']){
         // Database connection
         require "dbconnection.php";
 
