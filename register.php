@@ -1,6 +1,6 @@
 <?php
     if($_POST['submit']){
-        // To connect database
+        // Database connection
         require "dbconnection.php";
 
         $name = $_POST['name'];
