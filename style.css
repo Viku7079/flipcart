@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+h1{
+    font-size: 56px;
+}
+h3{
+    font-size: 36px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
