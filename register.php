@@ -6,7 +6,10 @@ require "dbconnection.php";
     $password = $_POST['password'];
     $sql="insert into user(name,email,password) values('$name','$email','$password')";
     if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
+        header('Location: login.html');
+      }
+      else{
+        echo "Something Error, Please try again."
       }
 
 
