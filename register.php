@@ -9,7 +9,7 @@ require "dbconnection.php";
         header('Location: login.html');
       }
       else{
-        echo "Something Error, Please try again."
+        echo "Something Error, Please try again.";
       }
 
 
