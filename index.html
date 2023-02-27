@@ -4,27 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
     <!-- Boxicons -->
     <link
       href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
       rel="stylesheet"
     />
     <!-- Glide js -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css"
+    />
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>ecommerce Website</title>
+    <title>FlipCart</title>
   </head>
   <body>
     <header class="header" id="header">
+      <!-- Top Navbar -->
+      <div class="top-nav">
+        <div class="container d-flex">
+          <a href="te:7079228678"><p>Order Online Or Call Us: 7079228678</p></a>
+          <ul class="d-flex">
+            <li>
+              <a href="mailto:help@flipcart.com"><b>Help</b></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Navigation -->
       <div class="navigation">
         <div class="nav-center container d-flex">
           <a href="/" class="logo">
-            <h1>flipcart</h1>
+            <h1>flipCart</h1>
           </a>
-    
+
           <ul class="nav-list d-flex">
             <li class="nav-item">
               <a href="index.html" class="nav-link">Home</a>
@@ -39,13 +57,16 @@
               </a>
             </li>
           </ul>
-    
+
           <div class="icons d-flex">
             <a href="login.html" class="icon">
               <i class="bx">Login</i>
             </a>
+            <a href="register.html" class="icon">
+              <i class="bx">| SignUp</i>
+            </a>
           </div>
-    
+
           <div class="hamburger">
             <i class="bx bx-menu-alt-left"></i>
           </div>
@@ -53,12 +74,75 @@
       </div>
     </header>
 
-    <h1>This is a Home Page</h1>
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="glide" id="glide_1">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div class="center">
+                <div class="left">
+                  <span class="">New Arrivals 2023</span>
+                  <h1 class="">NEW COLLECTION!</h1>
+                  <p>Trending from men's and women's style collection</p>
+                  <a href="#" class="hero-btn">SHOP NOW</a>
+                </div>
+                <div class="right">
+                  <img class="img1" src="./images/hero-1.png" alt="" />
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="center">
+                <div class="left">
+                  <span>New Inspiration 2023</span>
+                  <h1>THE PERFECT MATCH!</h1>
+                  <p>Trending from men's and women's style collection</p>
+                  <a href="#" class="hero-btn">SHOP NOW</a>
+                </div>
+                <div class="right">
+                  <img class="img2" src="./images/hero-2.png" alt="" />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
+    <!-- Footer -->
     <footer class="footer">
-      <h1>This is Footer</h1>
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="">About us</a>
+          <a href="">Contact Us</a>
+          <a href="">Term & Conditions</a>
+          <a href="">Shipping Guide</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="">Online Store</a>
+          <a href="">Customer Services</a>
+          <a href="">Promotion</a>
+          <a href="">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class="bx bxl-facebook-square"></i></span>
+          <span><i class="bx bxl-instagram-alt"></i></span>
+          <span><i class="bx bxl-github"></i></span>
+          <span><i class="bx bxl-twitter"></i></span>
+          <span><i class="bx bxl-pinterest"></i></span>
+        </div>
+      </div>
+      <hr />
+      <p>
+        Copyright &#169; - 2023 -
+        <a href="https:flipcart.com" target="_blank">FlipCart</a> - All rights
+        reserved.
+      </p>
     </footer>
- </body>
+  </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
   <script src="./js/slider.js"></script>
   <script src="./js/index.js"></script>
